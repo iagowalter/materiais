@@ -17,6 +17,8 @@ h1 { font:800 38px/1.08 "Inter Tight", sans-serif; letter-spacing:-0.02em; margi
 .hl { color:#3B82F6; } .hl2 { color:#F5B83D; }
 p.sub { color:#C9D3E6; font-size:18px; margin:0 0 28px; }
 .btn { display:block; text-align:center; background:#3B82F6; color:#fff; font:700 20px "Inter Tight"; text-decoration:none; padding:18px; border-radius:16px; }
+.botoes { display:flex; flex-direction:column; gap:12px; }
+.btn.sec2 { background:transparent; border:2px solid #3B82F6; color:#F3F6FC; }
 .btn.sec { background:transparent; border:2px solid #F5B83D; color:#F5B83D; }
 .previa { display:flex; gap:12px; overflow-x:auto; margin:28px 0; scroll-snap-type:x mandatory; }
 .previa img { width:78%; flex:none; border-radius:14px; scroll-snap-align:start; border:1px solid #22304F; }
@@ -36,13 +38,13 @@ p.sub { color:#C9D3E6; font-size:18px; margin:0 0 28px; }
   .previa { grid-column:2; grid-row:1 / span 2; margin:0; display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; overflow:visible; }
   .previa img { width:100%; transition:transform .2s; } .previa img:hover { transform:scale(1.03); }
   h1 { font-size:54px; } p.sub { font-size:20px; }
-  .btn { display:inline-block; padding:18px 36px; }
+  .btn { display:inline-block; padding:18px 36px; } .botoes { flex-direction:row; flex-wrap:wrap; }
   .ajuda .btn { display:block; }
   .cards { display:grid; grid-template-columns:repeat(4, 1fr); gap:24px; } .cards .card { margin:0; }
 }
 footer { margin-top:48px; color:#8C9BB8; font-size:13px; text-align:center; }
 </style></head><body><div class="wrap">
 <a class="topo" href="index.html"><img src="avatar.png" alt=""><div><b>Iago Walter</b>@iago.dados · dados, IA e automação</div></a>
-<h1>Materiais <span class="hl">gratuitos</span></h1><p class="sub">Listas, planilhas e modelos que eu mando no direct. Comenta a palavra no post ou baixa direto aqui.</p><div class="cards"><a class="card" href="rotina/index.html"><img class="card-capa" src="rotina/previa_1.jpg" alt=""><span class="selo">ROTINA</span><b>10 tarefas que dá para automatizar na sua empresa</b></a></div>
+<h1>Materiais <span class="hl">gratuitos</span></h1><p class="sub">Listas, planilhas e modelos que eu mando no direct. Comenta a palavra no post ou baixa direto aqui.</p><div class="cards"><a class="card" href="rotina/index.html"><img class="card-capa" src="rotina/previa_1.jpg" alt=""><span class="selo">ROTINA</span><b>10 tarefas que dá para automatizar na sua empresa</b></a><a class="card" href="custo/index.html"><img class="card-capa" src="custo/previa_1.jpg" alt=""><span class="selo">CUSTO</span><b>Planilha: quanto sua empresa gasta com IA por mês</b></a></div>
 <footer>Material gratuito · Conteúdo feito com ajuda de IA · <a href="https://www.instagram.com/iago.dados/" style="color:#8C9BB8">@iago.dados</a></footer>
 </div></body></html>
