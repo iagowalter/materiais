@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>Materiais gratuitos · @iago.dados</title>
 <link rel="icon" type="image/png" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:title" content="Materiais gratuitos"><meta property="og:description" content="Material gratuito do @iago.dados">
-<style>
+<style>:root { --acc:#3B82F6; --acc2:#F5B83D; --acctxt:#fff; }
 @font-face { font-family: "Inter"; src: url("fontes/Inter.ttf"); font-weight: 100 900; }
 @font-face { font-family: "Inter Tight"; src: url("fontes/InterTight.ttf"); font-weight: 100 900; }
 @font-face { font-family: "JetBrains Mono"; src: url("fontes/JetBrainsMono.ttf"); font-weight: 100 800; }
@@ -10,22 +10,22 @@
 body { margin:0; background:#0A1020; color:#F3F6FC; font-family:Inter, sans-serif; line-height:1.5; }
 .wrap { max-width:640px; margin:0 auto; padding:32px 20px 60px; }
 .topo { display:flex; align-items:center; gap:14px; margin-bottom:36px; color:#8C9BB8; text-decoration:none; }
-.topo img { width:52px; height:52px; border-radius:50%; border:3px solid #3B82F6; }
+.topo img { width:52px; height:52px; border-radius:50%; border:3px solid var(--acc); }
 .topo b { color:#F3F6FC; font-family:"Inter Tight"; font-size:18px; display:block; }
-.selo { display:inline-block; font:700 12px "JetBrains Mono"; letter-spacing:2px; color:#F5B83D; border:2px solid #F5B83D; border-radius:30px; padding:5px 12px; }
+.selo { display:inline-block; font:700 12px "JetBrains Mono"; letter-spacing:2px; color:var(--acc2); border:2px solid var(--acc2); border-radius:30px; padding:5px 12px; }
 h1 { font:800 38px/1.08 "Inter Tight", sans-serif; letter-spacing:-0.02em; margin:16px 0 12px; }
-.hl { color:#3B82F6; } .hl2 { color:#F5B83D; }
+.hl { color:var(--acc); } .hl2 { color:var(--acc2); }
 p.sub { color:#C9D3E6; font-size:18px; margin:0 0 28px; }
-.btn { display:block; text-align:center; background:#3B82F6; color:#fff; font:700 20px "Inter Tight"; text-decoration:none; padding:18px; border-radius:16px; }
+.btn { display:block; text-align:center; background:var(--acc); color:var(--acctxt); font:700 20px "Inter Tight"; text-decoration:none; padding:18px; border-radius:16px; }
 .botoes { display:flex; flex-direction:column; gap:12px; }
-.btn.sec2 { background:transparent; border:2px solid #3B82F6; color:#F3F6FC; }
-.btn.sec { background:transparent; border:2px solid #F5B83D; color:#F5B83D; }
+.btn.sec2 { background:transparent; border:2px solid var(--acc); color:#F3F6FC; }
+.btn.sec { background:transparent; border:2px solid var(--acc2); color:var(--acc2); }
 .previa { display:flex; gap:12px; overflow-x:auto; margin:28px 0; scroll-snap-type:x mandatory; }
 .previa img { width:78%; flex:none; border-radius:14px; scroll-snap-align:start; border:1px solid #22304F; }
 .card { display:block; background:#121B33; border:2px solid #22304F; border-radius:18px; padding:20px 22px; margin:14px 0; color:inherit; text-decoration:none; }
 .card b { font:700 21px/1.25 "Inter Tight"; display:block; margin-top:8px; }
 .card-capa { width:100%; border-radius:12px; margin-bottom:14px; display:block; }
-.card:hover { border-color:#3B82F6; }
+.card:hover { border-color:var(--acc); }
 .ajuda { margin-top:40px; background:#121B33; border:2px solid #22304F; border-radius:18px; padding:24px; }
 .ajuda h2 { font:800 26px/1.15 "Inter Tight"; margin:0 0 8px; }
 /* notebook / PC (16:9): duas colunas — texto e botões à esquerda, prévia grande à direita */
